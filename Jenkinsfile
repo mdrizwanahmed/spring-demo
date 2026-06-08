@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 
-                sh 'docker build -t spring-demo .'
+                sh '/usr/local/bin/docker build -t spring-demo .'
 
             }
 
